@@ -63,5 +63,6 @@ export function Hero() {
 				</a>
 			</div>
 		</section>
+		</section>
 	)
 }
