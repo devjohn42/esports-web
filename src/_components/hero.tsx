@@ -2,7 +2,7 @@ import logo from '../assets/logo-nlw.svg'
 
 export function Hero() {
 	return (
-		<section className='flex flex-col items-center'>
+		<section className="flex flex-col items-center">
 			<img src={logo} alt="" />
 			<h1 className="text-[64px] text-[#7D74DE] font-black mt-20">
 				Seu{' '}
@@ -62,7 +62,6 @@ export function Hero() {
 					</div>
 				</a>
 			</div>
-		</section>
 		</section>
 	)
 }
