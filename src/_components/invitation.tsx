@@ -1,3 +1,4 @@
+import * as Dialog from '@radix-ui/react-dialog'
 import { TicketSlash } from 'lucide-react'
 
 export function Invitation() {
@@ -12,10 +13,10 @@ export function Invitation() {
 						Crie um convite para encontrar novos players!
 					</span>
 				</div>
-				<button className="bg-[#7D74DE] hover:cursor-pointer hover:bg-[#534c96] transition-colors duration-300 py-3 px-4 text-zinc-50 font-bold rounded flex items-center gap-3">
+				<Dialog.Trigger className="bg-[#7D74DE] hover:cursor-pointer hover:bg-[#534c96] transition-colors duration-300 py-3 px-4 text-zinc-50 font-bold rounded flex items-center gap-3">
 					<TicketSlash size={22} />
 					Criar Convite
-				</button>
+				</Dialog.Trigger>
 			</section>
 		</div>
 	)
