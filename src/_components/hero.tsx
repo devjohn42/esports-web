@@ -7,7 +7,7 @@ interface GameBannerProps {
 	adsCount: number
 }
 
-interface Game {
+export interface Game {
 	id: string
 	title: string
 	bannerUrl: string
